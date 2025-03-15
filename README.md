@@ -1,6 +1,6 @@
 # 🚀 Portfólio de Eric Dias - Desenvolvedor Mobile
 
-![Banner do Portfólio](https://api.placeholder.com/800/300)
+![Banner do Portfólio](portfolio-image.png)
 
 ## ✨ Visão Geral
 
