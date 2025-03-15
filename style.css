@@ -349,6 +349,9 @@ section {
 }
 
 .project-card img{
+    width: 100%; /* Ajusta a largura da imagem para ocupar 100% do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    max-height: 200px; /* Define uma altura máxima (opcional) */
     max-width: 300px;
     border-radius: 2em;
     object-fit: cover;
