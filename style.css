@@ -28,11 +28,11 @@ body{
     width: 100%;
     top: 0;
     left: 0;
-    padding: 4rem 15%;
+    padding: 2rem 15%; /* Ajuste o padding se necessário */
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(10px);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Espaço entre logo e navbar */
     align-items: center;
     z-index: 1000;
 }
@@ -62,10 +62,17 @@ span {
     color: transparent
 }
 
+.navbar {
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Centralizar os links */
+    align-items: center; /* Centralizar verticalmente os links */
+    flex-grow: 1; /* Permitir que a navbar cresça */
+}
+
 .navbar a {
     font-size: 1.8rem;
     color: var(--text-color);
-    margin-left: 4rem;
+    margin: 0 2rem; /* Margem horizontal nos links */
     font-weight: 500;
     transition: 0.3s ease-in-out;
     border-bottom: 3px solid transparent;
@@ -74,23 +81,6 @@ span {
 .navbar a:hover {
     color: var(--main-color);
     border-bottom: 3px solid var(--main-color);
-}
-
-.gradient-btn{
-    font-size: 1.8rem;
-    padding: 1rem 2rem;
-    border-radius: 3rem;
-    background: linear-gradient(270deg, #df0862 10%, #ff1d15 100%);
-    letter-spacing: 1px;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
-    color: white;
-    border: none;
-    text-wrap: nowrap;
-}
-
-.gradient-btn:hover {
-    transform: scale(1.05);
 }
 
 section {
