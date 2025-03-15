@@ -1,4 +1,4 @@
-# 🚀 Portfólio de Eric Dias - Desenvolvedor Mobile
+# 🚀 Portfólio de Eric Dias - Desenvolvedor Mobile (EM CONSTRUÇÃO 🛠)
 
 ![Banner do Portfólio](portfolio-image.png)
 
